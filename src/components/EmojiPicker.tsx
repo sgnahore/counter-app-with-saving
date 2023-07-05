@@ -18,13 +18,12 @@ export default function EmojiPicker(): JSX.Element {
 
   const handleAddFrying = () => {
     queueRerenderWithNewFavouriteValue(counterEmojiFromCurrentRender);
-    queueRerenderWithNewCounterEmoji("🍳")
+    queueRerenderWithNewCounterEmoji("🍳");
   };
   const handleStoreCurrentCount = () => {
     queueRerenderWithNewFavouriteValue(counterEmojiFromCurrentRender);
   };
 
-  
   return (
     <>
       <h1>Emoji picker</h1>
